@@ -1,3 +1,4 @@
+
 # Healthcare-Data-Analysis-With-SQL
 A complete healthcare analytics project done entirely with SQL, featuring database design, data cleaning, and insightful queries on hospital operations and patient statistics.
 # Introduction
@@ -56,7 +57,66 @@ a star schema was created
         - O+ came next with 13k patients\
         - O- followed with 8k admitted patients
         - AB-, B+, A-, AB+, B- all had same number of patients admitted with 2775 patients each.
-3. 
+2. Which medical conditions are diagnosed the most, and do they affect certain groups of people more than others?
+     - Condition Distribution
+       - Diabetes and Hypertesion are the most diagnosed medical condition with 13.8k diagnoises each
+       - Obesity comes next with 12.7k diagnoses.
+       - Arthritis and Cancer followed with 5.5k dagnoses each.
+       - Asthma is the least diagnosed with 3.8k diagnoses
+     - Condition Distribution By gender
+       - Females were affected more by all conditions than males except Obesity where female and male had same number of diagnoses. Non-binary was the least affected in all conditions
+     - Condition Distribution by Age Group
+       - The seniors had highest diagnoses of all Medical Conditions
+       - The middle-aged, adult and young adult too had significant numbers
+       - The Teenagers has considerably low diagnoses in all but had higher diagnoses of Hypertension, Diabetes and Obesity.
+      - Condition Distribution by Blood Type
+        - Arthritis were only diagnosed in O- Patients
+        - Asthma and cancer were disgnosed in only A+ patients
+        - Daibetes was diagnosed in O+, B+, A- patients
+        - Hypertension was diagnosed in A+ and O+ patients
+        - Obesity is the most widely ranged diagnosed with diagnoses in patiens such as Ab-,Ab+, B-,O-, A-.
+3. How long do patients typically stay in the hospital for different conditions? Does this vary depending on the hospital or type of admission (emergency, urgent, or planned)?
+   - The general average duration across all hospital, condition and admission typeis 15 days.
+   - Also, across different conditions and corrresponding amission type had same average of 15 days
+   - The average across different hospitals and respective condition range from 14 to 15 days.
+4. How much does treatment usually cost for each condition? Are there big differences in costs between hospitals or insurance providers?
+   - Treatment Cost across Conditions
+     - The average treatment cost for each condition is approxmately 25k.
+   - Treatment cost accross hospitals
+      - The average treatment cost accross different hospital for the different conditons ranges from 24K to 26K.
+      - Asthma in Mayo Clinic is the only signifacntly higher cost with average of 28K
+    - Treatment Cost accross diffrent Insurance Providers is also stead with an average of 24K - 25K.
+5.	Which hospitals are treating the most patients, and how do they compare in terms of patient outcomes, like test results?
+   - Hospital distribution of patients
+     - Houston Methodist Hospital had the highest number of patients with 20k admissions
+     - Followed by John Hopkins Medical Center with 11k admissions
+     - UClA came third with a total of 6K admissions
+     - The next 2.5k admissions and the rest followed with not much difference from each other.
+   - Hospital Distribution In terms of Test results
+     - Test results that came out Abnormal were the highest in all Hospitals, followed by the inconclusive ones.
+     - Normal test results was significantly low i all hospitals.
+6. What medications are most often prescribed for each condition? Are they being used consistently across hospitals?
+   - Medication distribution by Conditon
+     - Arhtiris diagneses received Paracetamol the most, then other medications followed closely.
+     - Asthma Patiens were prescribed with Paracetamol more while othe medications followed closely with not much difference
+     - ASpirin was prescribed most to those with Cancer and other medications followed
+     - Diabetes were prescribed most with Lipitor
+     - Hypertensive patients were given Penicilin the most, other medications did not differ too much.
+     - Obsese patients received Pararcetamol the most.
+   - The medicaton for differet conditions in different hospitals are not quite different from each other.
+7. How are patients admitted - mostly through emergency, urgent, or planned admissions - and how does that impact the length of stay or treatment costs?
+   - More Patients came Electively with a number of 18.6K admissions by elective
+   - Urgent admisions came next with 18.5K admissions
+   - Emergency Patients come leastt with 18.2K admissions
+   - The average duration of each type of admsission is still 15 days
+   - tthe aveage treatment cost across all admission type is approximately 25k.
+8. Which insurance companies are covering the most patients, and how does that relate to treatment costs and patient outcomes?
+   - Medicare Insured Patients are the most with 27.7K patients.
+   - Followed by UnitedHealthCare with 16.6K insured patients
+   - Aetna and Cigna are least with 5.5K insured patients each.
+   - The test results outcome does not differ from the behaviour above which is Higher number of abnormal, followed by inconclusive, followed by low number of normal results.
+   - The average treatment cost across different insurance companies is 24K to 25K.
+        
           
        
       
