@@ -32,11 +32,13 @@ To uncover insights that can drive better healthcare decisions, optimize costs, 
 # Data Transformation
 A fact table was only given containing fiels such as age, gender, blood type, medical condition, hospital, insurance provider, medication, billing amount, admission type, and test results.
 - I checked and remove duplicates
-- I created Four Dimensions table namely: DimHospital(for hospitals), DimInsuranceProviders(for insurance providers), DimMedical
-- Condition(for medical conditions of patient), DimMedication( for medication issued).
+- I created Four Dimensions table namely: DimHospital(for hospitals), DimInsuranceProviders(for insurance providers), DimMedicalCondition(for medical conditions of patient), DimMedication( for medication issued).
 - Exported distinct values of Hospitals to DimHospital and others to their corresponding dimensions table, then i created an ID field in all the dimensions table to serve as primary key of the Dimensions table, their coresponding foreign keys was also created in the Facts Table
 - The dimensions and fact tables were connected appropriately.
 - A duration field was also created to get the number of days patients spent in the hospital.
+---
+  The SQL queries for the data preparartion and modelling can be found [here](Data_Cleanig_Modelling_Preparation.sql).
+
 # Modelling
 a star schema was created
 ![](ER_Diagram.JPG)
@@ -116,7 +118,8 @@ a star schema was created
    - Aetna and Cigna are least with 5.5K insured patients each.
    - The test results outcome does not differ from the behaviour above which is Higher number of abnormal, followed by inconclusive, followed by low number of normal results.
    - The average treatment cost across different insurance companies is 24K to 25K.
-        
+        ---
+     The insight queies can be found [here](Insight_Analysis_Queries.sql)
           
        
       
