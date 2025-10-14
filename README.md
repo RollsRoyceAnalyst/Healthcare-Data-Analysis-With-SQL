@@ -31,7 +31,8 @@ To uncover insights that can drive better healthcare decisions, optimize costs, 
 # Data Transformation
 A fact table was only given containing fiels such as age, gender, blood type, medical condition, hospital, insurance provider, medication, billing amount, admission type, and test results.
 - I checked and remove duplicates
-- I created Four Dimensions table namely: DimHospital(for hospitals), DimInsuranceProviders(for insurance providers), DimMedicalCondition(for medical conditions of patient), DimMedication( for medication issued).
+- I created Four Dimensions table namely: DimHospital(for hospitals), DimInsuranceProviders(for insurance providers), DimMedical
+- Condition(for medical conditions of patient), DimMedication( for medication issued).
 - Exported distinct values of Hospitals to DimHospital and others to their corresponding dimensions table, then i created an ID field in all the dimensions table to serve as primary key of the Dimensions table, their coresponding foreign keys was also created in the Facts Table
 - The dimensions and fact tables were connected appropriately.
 - A duration field was also created to get the number of days patients spent in the hospital.
@@ -39,3 +40,23 @@ A fact table was only given containing fiels such as age, gender, blood type, me
 a star schema was created
 ![](ER_Diagram.JPG)
 # Analysis/Queries
+1. What are the most common age groups, genders, and blood types among patients? Are certain groups being admitted more often than others?
+     - For Age Groups
+        - Seniors (65+ years) were admitted the most with 17k Admissions
+        - Middle-Aged (50-64) came next with 12.4k amitted patients
+        - Adults (35-49) followed with 12.2k patients
+        - Young Adult came next with 12k patients
+        - Teenagers were admitted least with 1.6k patients
+     - For Gender distribution
+        - Female were admitted most with 27k patients
+        - Males came next with 22k patients
+        - Non-binary were the least with 5.5k admissions
+      - For Blood Types
+        - A+ patients were admitted most with 19k patients
+        - O+ came next with 13k patients\
+        - O- followed with 8k admitted patients
+        - AB-, B+, A-, AB+, B- all had same number of patients admitted with 2775 patients each.
+3. 
+          
+       
+      
