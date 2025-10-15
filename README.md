@@ -28,7 +28,8 @@ To uncover insights that can drive better healthcare decisions, optimize costs, 
 - SQL CTEs, Subqueries, Windows function, etc
 - Analysis
 # Data Sourcing
- I got the dataset from Onyx Data Challenge
+ I got the dataset from Onyx Data Challenge. The dataset contains 55,500 unique patient records from 10 major hospitals across the U.S. The dataset contains these fields: Patient ID,	Age,	Gender,	Blood Type,	Medical Condition,	Date of Admission,	Doctor,	Hospital	Insurance Provider,	Billing Amount,	Room Number,	Admission Type,	Discharge Date,	Medication,	Test Results,	Hospital Latitude and Hospital Longitude.	Hospital Longitude
+
 # Data Transformation
 A fact table was only given containing fiels such as age, gender, blood type, medical condition, hospital, insurance provider, medication, billing amount, admission type, and test results.
 - I checked and remove duplicates
@@ -120,6 +121,16 @@ a star schema was created
    - The average treatment cost across different insurance companies is 24K to 25K.
         ---
      The insight queies can be found [here](Insight_Analysis_Queries.sql)
+# Recommendations
+   - HealthCare Campaigns should be organized from time to time for Seniors (65+) to prevent sudden health relapse and emergencies, other Age groups should not be left out but Seniors psecofic Campaign should be more frequent.
+   - Hypertension, Diabetes and Obesity awareness campaign/check up should be introduced to all age groups from teenagers to seniors as it has significant numbers in all age groups.
+   - Hospitals should inform patients (new and old) of the kind of diseases or condition their Blood type is prone to, so emergency can be reduced.
+   - Hospitals with lower number of patients should study and embrace the mode of operation of hospitals with higher admissions to increase their standard and reduce patient overload on those hospitals.
+   - They can also cut down treatent cost but not reduce treatment standard to attract more patients.
+   - On tests results, there will be need for more context to know why the abnormal results are that high.
+   - Hospitals should invest more in their emergency service team as number of emergency patients is almost same as number of patients that come in voluntarily. 
+   - Insurnce Providers with low number of patients should study operaions of Providers with high number of patients to attract more individuals.
+   - Hospitals should also invest in accomodation as many patients stay for prolonged periods.
           
        
       
