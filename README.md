@@ -122,7 +122,7 @@ a star schema was created
         ---
      The insight queies can be found [here](Insight_Analysis_Queries.sql)
 # Recommendations
-   - HealthCare Campaigns should be organized from time to time for Seniors (65+) to prevent sudden health relapse and emergencies, other Age groups should not be left out but Seniors psecofic Campaign should be more frequent.
+   - HealthCare Campaigns should be organized from time to time for Seniors (65+) to prevent sudden health relapse and emergencies, other Age groups should not be left out but Seniors specific Campaign should be more frequent.
    - Hypertension, Diabetes and Obesity awareness campaign/check up should be introduced to all age groups from teenagers to seniors as it has significant numbers in all age groups.
    - Hospitals should inform patients (new and old) of the kind of diseases or condition their Blood type is prone to, so emergency can be reduced.
    - Hospitals with lower number of patients should study and embrace the mode of operation of hospitals with higher admissions to increase their standard and reduce patient overload on those hospitals.
