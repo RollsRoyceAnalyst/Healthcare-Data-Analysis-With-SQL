@@ -43,7 +43,7 @@ A fact table was only given containing fiels such as age, gender, blood type, me
 # Modelling
 a star schema was created
 ![](ER_Diagram.JPG)
-# Analysis/Queries
+# Analysis/Insights
 1. What are the most common age groups, genders, and blood types among patients? Are certain groups being admitted more often than others?
      - For Age Groups
         - Seniors (65+ years) were admitted the most with 17k Admissions
