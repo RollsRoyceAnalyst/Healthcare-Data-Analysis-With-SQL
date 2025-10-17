@@ -119,18 +119,22 @@ a star schema was created
    - Aetna and Cigna are least with 5.5K insured patients each.
    - The test results outcome does not differ from the behaviour above which is Higher number of abnormal, followed by inconclusive, followed by low number of normal results.
    - The average treatment cost across different insurance companies is 24K to 25K.
-        ---
+   ---
      The insight queies can be found [here](Insight_Analysis_Queries.sql)
 # Recommendations
-   - HealthCare Campaigns should be organized from time to time for Seniors (65+) to prevent sudden health relapse and emergencies, other Age groups should not be left out but Seniors specific Campaign should be more frequent.
-   - Hypertension, Diabetes and Obesity awareness campaign/check up should be introduced to all age groups from teenagers to seniors as it has significant numbers in all age groups.
-   - Hospitals should inform patients (new and old) of the kind of diseases or condition their Blood type is prone to, so emergency can be reduced.
-   - Hospitals with lower number of patients should study and embrace the mode of operation of hospitals with higher admissions to increase their standard and reduce patient overload on those hospitals.
-   - They can also cut down treatent cost but not reduce treatment standard to attract more patients.
-   - On tests results, there will be need for more context to know why the abnormal results are that high.
-   - Hospitals should invest more in their emergency service team as number of emergency patients is almost same as number of patients that come in voluntarily. 
-   - Insurnce Providers with low number of patients should study operaions of Providers with high number of patients to attract more individuals.
-   - Hospitals should also invest in accomodation as many patients stay for prolonged periods.
-          
+   - For Hospitals
+      - Hospitals should invest in Geriatric Care Units, Chronic Disease management and Preventive screenings tailored to Seniors and women.
+      - Hospitals should strengthen laboratory quality control, equipment calibration, and diagnostic training to improve test result outcomes.
+      - Hospitals should cooperate with each other to redistribute patient loads, reducing overcrowding and optimizing patient outcomes.
+      - Some conditions are specific to certain blood types, Hospitals should explore targeted screening or risk communication with patients with these blood types to aid earlier detection.
+      - Hospitals should also invest in accommodation as many patients stay for prolonged periods
+      - Hospitals should invest more in their emergency service team as number of emergency patients is almost same as number of patients that come in voluntarily.
+   - For Patients
+      - Patients should leverage insurance benefits and preventive care initiatives to reduce long-term healthcare costs.
+      - Patients should be educated about how certain blood types may be linked to specific health risks to encourage personalized preventive care.
+   - For Insurance Companies
+      - Insurers can implement preventive screening incentives, wellness discounts, or disease management programs to reduce claims from chronic conditions.
+
+
        
       
